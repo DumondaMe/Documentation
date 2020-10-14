@@ -1,4 +1,6 @@
-# dumondame-documentation
+# DumondaMe Documentation
+
+![DumondaMe](static/preview-dumondame.png)
 
 ## Setup
 
