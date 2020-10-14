@@ -1,42 +1,53 @@
 ---
 title: Setup
 description: ''
-position: 1
+position: 1.1
 category: Guide
 ---
 
-Check the [Nuxt.js documentation](https://nuxtjs.org/guides/configuration-glossary/configuration-modules) for more information about installing and using modules in Nuxt.js.
-
 ## Installation
 
-Add `@nuxtjs/xxx` dependency to your project:
+1. Clone the Repository
 
-<code-group>
-  <code-block label="Yarn" active>
+  <code-group>
+    <code-block label="HTTPS" active>
+
+    ```bash
+    git clone https://github.com/DumondaMe/DumondaMe.git
+    ```
+
+    </code-block>
+    <code-block label="SSH">
+
+    ```bash
+    git clone git@github.com:DumondaMe/DumondaMe.git
+    ```
+
+    </code-block>
+    <code-block label="GitHub CLI">
+
+    ```bash
+    gh repo clone DumondaMe/DumondaMe
+    ```
+
+    </code-block>
+  </code-group>
+
+2. Change to the new Folder
 
   ```bash
-  yarn add @nuxtjs/xxx
+  cd DumondaMe
   ```
 
-  </code-block>
-  <code-block label="NPM">
+## General Installation of Docker
 
-  ```bash
-  npm install @nuxtjs/xxx
-  ```
+There are [sevaral ways to install Docker CE](https://docs.docker.com/get-docker/) on your computer or server.
 
-  </code-block>
-</code-group>
+Check the correct Docker installation by checking the version before proceeding. E.g. we have the following versions:
 
-Then, add `@nuxtjs/xxx` to the `modules` section of `nuxt.config.js`:
-
-```js[nuxt.config.js]
-{
-  modules: [
-    '@nuxtjs/xxx'
-  ],
-  xxx: {
-    // Options
-  }
-}
+```bash
+docker --version
+# Docker version 18.09.2
+docker-compose --version
+# docker-compose version 1.23.2
 ```

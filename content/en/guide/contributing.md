@@ -1,7 +1,7 @@
 ---
 title: Contributing
 description: ''
-position: 5
+position: 1.3
 category: Guide
 ---
 
