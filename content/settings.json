@@ -1,0 +1,10 @@
+{
+  "title": "DumondaMe Documentation",
+  "url": "https://docs.dumonda.me",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "github": "DumondaMe/Documentation",
+  "twitter": false
+}
