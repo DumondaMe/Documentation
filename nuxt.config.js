@@ -6,6 +6,6 @@ export default theme({
   },
   target: 'static',
   router: {
-    base: 'https://dumondame.github.io/Documentation/'
+    base: '/Documentation'
   }
 })
