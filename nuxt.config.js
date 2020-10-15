@@ -6,6 +6,6 @@ export default theme({
   },
   target: 'static',
   router: {
-    base: '/<repository-name>/'
+    base: '/Documentation/'
   }
 })
