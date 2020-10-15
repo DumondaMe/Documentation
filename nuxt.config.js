@@ -4,7 +4,8 @@ export default theme({
   docs: {
     primaryColor: '#00A198'
   },
+  target: 'static',
   router: {
-    base: '/Documentation/'
+    base: '/<repository-name>/'
   }
 })
