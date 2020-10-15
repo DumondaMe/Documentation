@@ -1,6 +1,7 @@
 {
   "title": "DumondaMe Documentation",
-  "url": "https://docs.dumonda.me",
+  "url": "https://docs.dumonda.me/documentation",
+  "dir": "",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
