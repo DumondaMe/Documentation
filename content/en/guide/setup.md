@@ -39,7 +39,7 @@ category: Guide
   cd DumondaMe
   ```
 
-## General Installation of Docker
+## Install Docker
 
 There are [sevaral ways to install Docker CE](https://docs.docker.com/get-docker/) on your computer or server.
 
