@@ -2,6 +2,7 @@
   "title": "DumondaMe Documentation",
   "url": "https://dumondame.github.io/Documentation",
   "dir": "",
+  "defaultDir": "",
   "logo": {
     "light": "/logo-light.svg",
     "dark": "/logo-dark.svg"
