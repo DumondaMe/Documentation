@@ -1,5 +1,7 @@
 # DumondaMe Documentation
 
+[![Build and Deploy to GitHub Pages](https://github.com/DumondaMe/Documentation/workflows/Build%20and%20Deploy%20to%20GitHub%20Pages/badge.svg)](https://docs.dumonda.me)
+
 ![DumondaMe](static/preview-dumondame.png)
 
 ## Setup
