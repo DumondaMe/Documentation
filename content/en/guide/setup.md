@@ -5,7 +5,13 @@ position: 1.1
 category: Guide
 ---
 
-## Installation
+## Prerequisites
+Make sure you have installed all of the prerequisites:
+* [Docker CE](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
+* [Node.js LTS](https://nodejs.org/en/)
+
+## Installation for local development
 
 1. Clone the Repository
 
@@ -33,21 +39,35 @@ category: Guide
     </code-block>
   </code-group>
 
-2. Change to the new Folder
+2. Change to the web application code
 
   ```bash
-  cd DumondaMe
+  cd DumondaMe/dumondaMe
   ```
 
-## Install Docker
+3. Install the node.js dependencies
 
-There are [sevaral ways to install Docker CE](https://docs.docker.com/get-docker/) on your computer or server.
+  ```bash
+  npm run installDev
+  ```
 
-Check the correct Docker installation by checking the version before proceeding. E.g. we have the following versions:
+4. Install the [apoc](https://neo4j.com/developer/neo4j-apoc/) library
 
-```bash
-docker --version
-# Docker version 18.09.2
-docker-compose --version
-# docker-compose version 1.23.2
-```
+  ```bash
+    mkdir -p dockerCompose/neo4j/plugins
+    curl -L https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/3.5.0.11/apoc-3.5.0.11-all.jar > dockerCompose/neo4j/plugins/apoc-3.5.0.11-all.jar
+  ```
+
+5. Start all local services with docker-compose
+
+  ```bash
+    docker-compose up
+  ```
+
+6. Enter http://127.0.0.1:7474/ into your browser to connect to the neo4j database. Change the standard password from neo4j to 123456
+
+7. Todo: download standard images for cdn
+
+8. Todo: create fake data
+
+9. Todo: Start application
