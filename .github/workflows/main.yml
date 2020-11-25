@@ -12,11 +12,11 @@ jobs:
       - uses: actions/checkout@v2
       - uses: c-hive/gha-yarn-cache@v1
       
-      - name: Cache .dist/
+      - name: Cache dist/
         uses: actions/cache@v2
         with:
           path: |
-            **/.dist
+            **/dist
             **/.nuxt
             **/node_modules
           key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
