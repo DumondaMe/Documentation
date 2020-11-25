@@ -28,7 +28,7 @@ jobs:
         uses: canastro/copy-action@0.0.2
         with:
           source: CNAME
-          target: .dist/CNAME
+          target: .dist
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
