@@ -25,10 +25,7 @@ jobs:
         run: yarn && yarn generate
 
       - name: Copy CNAME
-        uses: canastro/copy-action@0.0.2
-        with:
-          source: CNAME
-          target: .dist
+        run: yarn cname
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
