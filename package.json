@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "cname": "cp CNAME .dist/CNAME"
+    "cname": "cp ./CNAME dist/CNAME"
   },
   "dependencies": {
     "@nuxt/content-theme-docs": "^0.7.1",
