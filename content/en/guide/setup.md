@@ -9,7 +9,8 @@ category: Guide
 Make sure you have installed all of the prerequisites:
 * [Docker CE](https://docs.docker.com/get-docker/)
 * [Docker Compose](https://docs.docker.com/compose/install/)
-* [Node.js LTS](https://nodejs.org/en/)
+* [Node.js 10.x LTS](https://nodejs.org/en/)
+* Install the required programs for [node-gyp](https://github.com/nodejs/node-gyp)
 
 ## Installation for local development
 
